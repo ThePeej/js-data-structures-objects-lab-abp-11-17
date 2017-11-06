@@ -10,6 +10,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   return newObj
 }
 
-function destructivelyUpdatedriverWithKeyAndValue(driver, key, value) {
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   return driver.key = value
 }
