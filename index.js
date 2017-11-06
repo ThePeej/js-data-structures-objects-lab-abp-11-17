@@ -2,7 +2,7 @@
 const driver = {}
 debugger;
 console.log('test1')
-function updatedriverWithKeyAndValue(driver, key, value) {
+function updateDriverWithKeyAndValue(driver, key, value) {
   debugger;
   const newObj = Object.assign({}, driver, { key : value })
   debugger;
