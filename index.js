@@ -9,3 +9,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   debugger;
   return newObj
 }
+
+function destructivelyUpdatedriverWithKeyAndValue(driver, key, value) {
+  return driver.key = value
+}
